@@ -1,28 +1,19 @@
 {
-  "name": "hoshi",
-  "version": "1.0.0",
-  "description": "A starboard bot",
-  "main": "hoshi.js",
+  "name": "global-starboard",
+  "description": "A bot that brings together all of the amazing star-worthy posts from around Discord",
+  "author": "Brightness™#2238",
+  "main": "node bot.js",
   "scripts": {
-    "test": "eslint ./"
+    "start": "node bot.js"
   },
-  "contributors": [
-    "1Computer",
-    "vzwGrey"
-  ],
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-aqua": "^4.4.1"
+  "engines": {
+    "node": "10.16.0"
   },
   "dependencies": {
-    "@sentry/node": "^5.1.0",
-    "chalk": "^2.4.2",
-    "discord-akairo": "^8.0.0-beta.8",
-    "discord.js": "github:discordjs/discord.js",
-    "moment": "^2.24.0",
-    "node-emoji": "^1.10.0",
-    "pg": "^7.9.0",
-    "sequelize": "^5.2.12"
+    "discord.js": "11.5.1",
+    "enmap": "^5.2.3",
+    "ms": "2.1.2",
+    "request": "^2.88.0",
+    "better-sqlite3": "^5.4.3"
   }
 }

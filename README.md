@@ -1,25 +1,7 @@
-# Hoshi
+# Global Starboard ⭐
+Global Starboard is a bot developed for Discord Hack Week [Discord Hack Week](https://discord.gg/hackweek "https://discord.gg/hackweek") that is designed to bring communities together. The funniest, most meme-worthiest posts that get a number of star reactions in any server that has the Global Starboard bot will be automatically sent to the global starboard channel!
 
-A starboard bot written for Discord using Discord.js.  
+The Global Starboard server can be found [here](https://discord.gg/nMjHtqX).
+You can invite the Global Starboard bot [here](https://discordapp.com/oauth2/authorize?client_id=592714451225149460&scope=bot&permissions=388161).
 
-Made by [1Computer](https://github.com/1computer1) and [vzwGrey](https://github.com/vzwGrey).  
-Invite Link: [Click here!](https://discordapp.com/oauth2/authorize?permissions=93184&scope=bot&client_id=341715769035456515)  
-
-## Features
-
-- Setting a custom prefix.
-- Starring and unstarring messages via reaction or command.
-- Setting a custom emoji for reactions.
-- Setting a custom starboard channel.
-- Deleting messages from the starboard in case of abuse.
-- Viewing the people who starred a message.
-- Adding positive reputation to users.
-- Viewing local and global stars and reputation.
-- Blacklisting people from using the starboard or adding reputation.
-
-## Setup
-
-To setup for personal use:
-- Set up a PostgreSQL database.
-- Fill out the `config.json`.
-- Run the bot using `node .` or [PM2](http://pm2.keymetrics.io/).
+![Global Starboard Logo](https://repository-images.githubusercontent.com/193497460/16dbaa80-997c-11e9-9c7f-ae680e9048ce)

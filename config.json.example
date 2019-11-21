@@ -1,0 +1,40 @@
+{
+  "core": {
+    "token": "DISCORD TOKEN"
+  },
+  "config": {
+    "prefix": "*",
+    "global_threshold": 6,
+    "main_server": "592094907770863686",
+    "channels": {
+      "global_starboard": "592363957415837766"
+    },
+    "logs": {
+      "bot": {
+        "channel": "CHANNEL ID",
+        "webhook": {
+          "id": "WEBHOOK ID",
+          "token": "WEBHOOK TOKEN"
+        }
+      },
+      "strikes": {
+        "channel": "CHANNEL ID",
+        "webhook": {
+          "id": "WEBHOOK ID",
+          "token": "WEBHOOK TOKEN"
+        }
+      },
+      "starboard": {
+        "channel": "CHANNEL ID",
+        "webhook": {
+          "id": "WEBHOOK ID",
+          "token": "WEBHOOK TOKEN"
+        }
+      }
+    },
+    "admins": ["PERMISSION 0 IDs"],
+    "roles": {
+      "global_mod": "STARBOARD MOD ROLE"
+    }
+  }
+}
