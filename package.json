@@ -20,7 +20,7 @@
     "chalk": "^2.4.2",
     "discord-akairo": "^8.0.0-beta.8",
     "discord.js": "github:discordjs/discord.js",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "node-emoji": "^1.10.0",
     "pg": "^7.9.0",
     "sequelize": "^5.2.12"
